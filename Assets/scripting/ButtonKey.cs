@@ -60,7 +60,7 @@ public class ButtonKey : MonoBehaviour
         {
             button.transform.position += Vector3.up * speed * Time.deltaTime;
 
-            if (transform.position.y == startY)
+            if (button.transform.position.y >= startY)
             {
                 button.transform.position = new Vector3(button.transform.position.x, startY, button.transform.position.z);
                 isMovingUp = false;
