@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Numerics;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -6,60 +8,63 @@ using Vector3 = UnityEngine.Vector3;
 
 public class ButtonKey : MonoBehaviour
 {
-    private float speed = 0.5f;
-    private float startY;
+    private float speed = 0.5f;      // Tốc độ di chuyển
+    private float startY;          // Vị trí Y ban đầu
+    public GameObject button;
     private bool isMovingDown = false;
     private bool isMovingUp = false;
 
     private void Start()
     {
-        startY = transform.position.y;
+        startY = button.transform.position.y; // Lưu vị trí Y ban đầu
+        
     }
 
     private void Update()
     {
-        
+        moving(); // Gọi liên tục trong Update để xử lý di chuyển
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("main"))
         {
             isMovingDown = true;
-            moving();
+            isMovingUp = false;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("main") && transform.position.y < startY)
+        if (other.gameObject.CompareTag("main"))
         {
             isMovingUp = true;
-            moving();
+            isMovingDown = false;
         }
     }
 
-    public void moving()
+
+    private void moving()
     {
         if (isMovingDown)
         {
-            transform.position += Vector3.down*speed*Time.deltaTime;
-            if (transform.position.y <= startY-0.5f)
+            button.transform.position += Vector3.down * speed * Time.deltaTime;
+
+            if (button.transform.position.y <= startY - 0.5f)
             {
-                transform.position = new Vector3(transform.position.x, startY-0.5f, transform.position.z);
+                button.transform.position = new Vector3(button.transform.position.x, startY - 0.5f, button.transform.position.z);
                 isMovingDown = false;
             }
         }
         else if (isMovingUp)
         {
-            transform.position += Vector3.up*speed*Time.deltaTime;
+            button.transform.position += Vector3.up * speed * Time.deltaTime;
 
             if (transform.position.y == startY)
             {
-                transform.position = new Vector3(transform.position.x, startY, transform.position.z);
+                button.transform.position = new Vector3(button.transform.position.x, startY, button.transform.position.z);
                 isMovingUp = false;
             }
         }
-        
     }
 }
