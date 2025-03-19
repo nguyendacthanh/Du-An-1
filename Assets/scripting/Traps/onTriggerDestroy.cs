@@ -4,7 +4,8 @@ public class onTriggerDestroy : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //dsdsd
+        //ccc
+        ////
         if (collision.gameObject.CompareTag("main"))
         {
             Destroy(collision.gameObject);
