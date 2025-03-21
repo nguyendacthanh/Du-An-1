@@ -8,6 +8,7 @@ using Vector3 = UnityEngine.Vector3;
 
 public class ButtonKey : MonoBehaviour
 {
+    // demo thu git
     private float speed = 0.5f;      // Tốc độ di chuyển
     private float startY;          // Vị trí Y ban đầu
     public GameObject button;
