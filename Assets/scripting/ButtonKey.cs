@@ -8,13 +8,13 @@ using Vector3 = UnityEngine.Vector3;
 
 public class ButtonKey : MonoBehaviour
 {
-    // demo thu git jjjjj
+    // demo 
     private float speed = 0.5f;      // Tốc độ di chuyển
     private float startY;          // Vị trí Y ban đầu
     public GameObject button;
     private bool isMovingDown = false;
     private bool isMovingUp = false;
-
+//fsfsfd
     private void Start()
     {
         startY = button.transform.position.y; // Lưu vị trí Y ban đầu
