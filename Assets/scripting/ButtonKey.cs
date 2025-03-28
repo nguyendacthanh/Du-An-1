@@ -13,11 +13,14 @@ public class ButtonKey : MonoBehaviour
     private float startY;          // Vị trí Y ban đầu
     public GameObject button;
     private bool isMovingDown = false;
+    public GameObject door;
+    Animator animator;
 
 //fsfsfd
     private void Start()
     {
         startY = button.transform.position.y; // Lưu vị trí Y ban đầu
+        animator= door.GetComponent<Animator>();
         
     }
 
@@ -44,10 +47,11 @@ public class ButtonKey : MonoBehaviour
         {
             button.transform.position += Vector3.down * speed * Time.deltaTime;
 
-            if (button.transform.position.y <= startY - 0.5f)
+            if (button.transform.position.y <= startY - 1.3f)
             {
-                button.transform.position = new Vector3(button.transform.position.x, startY - 0.5f, button.transform.position.z);
+                button.transform.position = new Vector3(button.transform.position.x, startY - 1.3f, button.transform.position.z);
                 isMovingDown = false;
+                
             }
         }
     }
