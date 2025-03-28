@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float moveSpeed = 1f; // Tốc độ di chuyển
-    public float jumpForce = 1f; // Lực nhảy
+    private float moveSpeed = 50f; // Tốc độ di chuyển
+    private float jumpForce = 100f; // Lực nhảy
     public float gravityScale = 1f; // Mức trọng lực
     private Rigidbody2D rb;
     private Animator anim;
