@@ -4,7 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="" />
+    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelectionScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelectionScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Close.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Close.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Levels.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Levels.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Play.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Play.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Restart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Restart.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Settings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Settings.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/04.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/06.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/07.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/08.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/09.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/10.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/11.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/12.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/13.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/14.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/15.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/16.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/17.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/18.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/19.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/20.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Text/Text (White) (8x10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Text/Text (White) (8x10).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,12 +108,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/MAN1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/MAN1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/MAN1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/MAN1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/Man1-19_Khung.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/Man1-19_Khung.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/EscScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy/Editor/FindWorkspace.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -96,26 +126,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Menu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;MenuMaker&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\6000.0.25f1\Editor\Unity.exe" />
@@ -146,15 +176,13 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13320">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13320" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -180,6 +208,10 @@
       <workItem from="1743065052561" duration="539000" />
       <workItem from="1743065635859" duration="899000" />
       <workItem from="1743152774589" duration="326000" />
+      <workItem from="1743159789556" duration="57000" />
+      <workItem from="1743159945455" duration="124000" />
+      <workItem from="1743360879232" duration="2905000" />
+      <workItem from="1743383606078" duration="2577000" />
     </task>
     <task id="LOCAL-00001" summary="code xong">
       <option name="closed" value="true" />
@@ -216,7 +248,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/MenuMaker" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
