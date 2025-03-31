@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -10,6 +12,7 @@ public class Player : MonoBehaviour
     private Animator anim;
     private bool isGrounded;
     private bool facingRight = true; // Kiểm tra hướng nhân vật
+    public GameObject panelLost;
 
     void Start()
     {
@@ -70,5 +73,21 @@ public class Player : MonoBehaviour
     {
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("spike"))
+        {
+            
+           
+            StartCoroutine(ShowLostPanel());
+        }
+    }
+    private IEnumerator ShowLostPanel()
+    {
+        yield return new WaitForSeconds(2f); 
+        Destroy(gameObject);
+        panelLost.SetActive(true); 
     }
 }
