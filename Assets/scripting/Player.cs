@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -60,7 +61,6 @@ public class Player : MonoBehaviour
             anim.SetBool("IsJumping", false);
         }
     }
-
     void UpdateAnimation()
     {
         anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
