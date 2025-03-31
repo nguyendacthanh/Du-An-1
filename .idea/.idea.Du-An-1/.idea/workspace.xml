@@ -4,13 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="">
+    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Sign Posts/01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Sign Posts/01.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Sign Posts/02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Sign Posts/02.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Sign Posts/03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Sign Posts/03.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="Player_Animation_Script" />
@@ -19,8 +31,8 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
       </GitPushTagMode>
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -61,7 +73,7 @@
         "id": "PR_kwDOOJZk9M6QtrX9",
         "number": 4
       },
-      "lastSeen": 1743412196900
+      "lastSeen": 1743414209147
     }
   ]
 }]]></component>
@@ -82,10 +94,12 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/1-15/Man1.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/EscScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/scripting/Menu.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/scripting/Menu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy/Editor/FindWorkspace.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -107,7 +121,7 @@
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#4 on MenuMaker",
+    "git-widget-placeholder": "#5 on MenuMaker",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -190,7 +204,7 @@
       <workItem from="1743360879232" duration="2905000" />
       <workItem from="1743383606078" duration="2837000" />
       <workItem from="1743389853986" duration="28000" />
-      <workItem from="1743411825484" duration="384000" />
+      <workItem from="1743411825484" duration="3805000" />
     </task>
     <task id="LOCAL-00001" summary="code xong">
       <option name="closed" value="true" />
@@ -216,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743386397770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Done">
+      <option name="closed" value="true" />
+      <created>1743413683152</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743413683152</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +253,11 @@
   </component>
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b9aeb74d-63bc-42f9-921b-2c554b087d67" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -250,6 +277,30 @@
             </State>
           </value>
         </entry>
+        <entry key="b9aeb74d-63bc-42f9-921b-2c554b087d67">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="range">
+                    <value>
+                      <list>
+                        <option value="origin/main..origin/MenuMaker" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
@@ -257,8 +308,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="code xong" />
     <MESSAGE value="ScriptThu" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main' into MenuMaker" />
     <MESSAGE value="Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
