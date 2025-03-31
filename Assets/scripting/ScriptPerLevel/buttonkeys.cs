@@ -45,9 +45,9 @@ public class buttonkeys :MonoBehaviour
         {
             button.transform.position += Vector3.down * speed * Time.deltaTime;
 
-            if (button.transform.position.y <= startY - 0.5f)
+            if (button.transform.position.y <= startY - 0.6f)
             {
-                button.transform.position = new Vector3(button.transform.position.x, startY - 0.5f, button.transform.position.z);
+                button.transform.position = new Vector3(button.transform.position.x, startY - 0.6f, button.transform.position.z);
                 isMovingDown = false;
             }
         }
