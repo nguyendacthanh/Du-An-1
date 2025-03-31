@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="Done">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Sign Posts/01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Sign Posts/01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Sign Posts/02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Sign Posts/02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Sign Posts/03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Sign Posts/03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/FreeLoopsMetadata.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/FreeLoopsMetadata.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Music/Sketchbook2024Metadata.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Music/Sketchbook2024Metadata.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Main Characters/Virtual Guy/Hit (32x32).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Main Characters/Virtual Guy/Hit (32x32).png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +30,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Last" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +66,7 @@
         "id": "PR_kwDOOJZk9M6QtrX9",
         "number": 4
       },
-      "lastSeen": 1743414209147
+      "lastSeen": 1743417799496
     }
   ]
 }]]></component>
@@ -95,9 +88,22 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/1-15/Man1.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/1-15/Man2.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/image/Sign Posts/01.png.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/EscScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/Level.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/UI/readWoodenSignButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy/Editor/FindWorkspace.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -121,7 +127,7 @@
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#5 on MenuMaker",
+    "git-widget-placeholder": "MenuMaker",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
