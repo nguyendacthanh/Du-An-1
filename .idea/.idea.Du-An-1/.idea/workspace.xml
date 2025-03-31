@@ -6,39 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelectionScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelSelectionScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Close.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Close.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Levels.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Levels.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Play.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Play.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Restart.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Restart.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Settings.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Settings.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/01.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/01.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/02.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/02.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/03.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/03.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/04.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/04.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/05.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/06.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/06.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/07.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/07.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/08.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/08.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/09.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/09.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/10.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/10.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/11.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/11.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/12.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/12.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/13.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/13.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/14.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/14.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/15.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/15.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/16.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/16.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/17.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/17.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/18.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/18.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/19.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/20.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Levels/20.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Text/Text (White) (8x10).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Text/Text (White) (8x10).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripting/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,31 +33,38 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState">{
-  &quot;prStates&quot;: [
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6PmFmD&quot;,
-        &quot;number&quot;: 1
+      "id": {
+        "id": "PR_kwDOOJZk9M6PmFmD",
+        "number": 1
       },
-      &quot;lastSeen&quot;: 1742554411106
+      "lastSeen": 1742554411106
     },
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6PmP7A&quot;,
-        &quot;number&quot;: 2
+      "id": {
+        "id": "PR_kwDOOJZk9M6PmP7A",
+        "number": 2
       },
-      &quot;lastSeen&quot;: 1742554418298
+      "lastSeen": 1742554418298
     },
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6QPg40&quot;,
-        &quot;number&quot;: 3
+      "id": {
+        "id": "PR_kwDOOJZk9M6QPg40",
+        "number": 3
       },
-      &quot;lastSeen&quot;: 1743065110845
+      "lastSeen": 1743065110845
+    },
+    {
+      "id": {
+        "id": "PR_kwDOOJZk9M6QtrX9",
+        "number": 4
+      },
+      "lastSeen": 1743412196900
     }
   ]
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nguyendacthanh/Du-An-1.git&quot;,
@@ -109,6 +83,8 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/scripting/EscScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/scripting/Menu.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/scripting/Menu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy/Editor/FindWorkspace.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -126,26 +102,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;MenuMaker&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#4 on MenuMaker",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\6000.0.25f1\Editor\Unity.exe" />
@@ -211,7 +188,9 @@
       <workItem from="1743159789556" duration="57000" />
       <workItem from="1743159945455" duration="124000" />
       <workItem from="1743360879232" duration="2905000" />
-      <workItem from="1743383606078" duration="2577000" />
+      <workItem from="1743383606078" duration="2837000" />
+      <workItem from="1743389853986" duration="28000" />
+      <workItem from="1743411825484" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="code xong">
       <option name="closed" value="true" />
@@ -229,7 +208,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742554017103</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Done">
+      <option name="closed" value="true" />
+      <created>1743386397770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743386397770</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +257,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="code xong" />
     <MESSAGE value="ScriptThu" />
-    <option name="LAST_COMMIT_MESSAGE" value="ScriptThu" />
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
