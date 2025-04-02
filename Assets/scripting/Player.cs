@@ -85,8 +85,9 @@ public class Player : MonoBehaviour
         }
     }
     private IEnumerator ShowLostPanel()
-    {
-        yield return new WaitForSeconds(2f); 
+    { 
+        anim.SetTrigger("IsDie");
+        yield return new WaitForSeconds(1.5f); 
         Destroy(gameObject);
         panelLost.SetActive(true); 
     }
