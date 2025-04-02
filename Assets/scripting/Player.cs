@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -10,24 +12,22 @@ public class Player : MonoBehaviour
     private Animator anim;
     private bool isGrounded;
     private bool facingRight = true; // Kiểm tra hướng nhân vật
-    private bool isDead = false; // Kiểm tra nếu player đã chết
     public GameObject panelLost;
+    private bool canJump = true;
+    private float jumpCooldown = 0.8f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>(); // Lấy Animator
         rb.gravityScale = gravityScale;
     }
 
     void Update()
     {
-        if (!isDead) // Chỉ cho phép di chuyển khi chưa chết
-        {
-            MovePlayer();
-            Jump();
-            UpdateAnimation();
-        }
+        MovePlayer();
+        Jump();
+        UpdateAnimation();
     }
 
     void MovePlayer()
@@ -50,23 +50,34 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            isGrounded = false;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); 
+            canJump = false; // Ngăn nhảy liên tục
             anim.SetBool("IsJumping", true);
+            StartCoroutine(ResetJump()); // Bắt đầu đếm thời gian cho phép nhảy lại
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        foreach (ContactPoint2D contact in collision.contacts)
         {
-            isGrounded = true;
-            anim.SetBool("IsJumping", false);
+            // Kiểm tra nếu tiếp đất từ trên xuống (không phải va chạm ngang)
+            if (collision.gameObject.CompareTag("Ground") && contact.normal.y > 0.5f)
+            {
+                canJump = true;
+                anim.SetBool("IsJumping", false);
+                break;
+            }
         }
     }
-
+    
+    private IEnumerator ResetJump()
+    {
+        yield return new WaitForSeconds(jumpCooldown);
+        canJump = true;
+    }
     void UpdateAnimation()
     {
         anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
@@ -80,23 +91,18 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("spike") && !isDead)
+        if (other.gameObject.CompareTag("spike"))
         {
-            StartCoroutine(Die());
+            
+           
+            StartCoroutine(ShowLostPanel());
         }
     }
-
-    private IEnumerator Die()
-    {
-        isDead = true; // Đánh dấu Player đã chết
-        rb.linearVelocity = Vector2.zero; // Ngừng di chuyển
-        rb.bodyType = RigidbodyType2D.Static; // Ngăn mọi tác động vật lý
-        anim.SetTrigger("IsDie"); // Chạy animation chết
-
-        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length); // Chờ animation hoàn thành
-
-        panelLost.SetActive(true); // Hiển thị panel thua
+    private IEnumerator ShowLostPanel()
+    { 
+        anim.SetTrigger("IsDie");
+        yield return new WaitForSeconds(1.5f); 
+        Destroy(gameObject);
+        panelLost.SetActive(true); 
     }
 }
-
-
