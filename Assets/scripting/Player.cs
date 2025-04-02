@@ -1,31 +1,33 @@
-using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    private float moveSpeed = 50f; // Tốc độ di chuyển
-    private float jumpForce = 100f; // Lực nhảy
-    public float gravityScale = 1f; // Mức trọng lực
+    private float moveSpeed = 50f; 
+    private float jumpForce = 100f; 
+    public float gravityScale = 1f; 
     private Rigidbody2D rb;
     private Animator anim;
     private bool isGrounded;
-    private bool facingRight = true; // Kiểm tra hướng nhân vật
+    private bool facingRight = true; 
+    private bool isDead = false; 
     public GameObject panelLost;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); // Lấy Animator
+        anim = GetComponent<Animator>();
         rb.gravityScale = gravityScale;
     }
 
     void Update()
     {
-        MovePlayer();
-        Jump();
-        UpdateAnimation();
+        if (!isDead) 
+        {
+            MovePlayer();
+            Jump();
+            UpdateAnimation();
+        }
     }
 
     void MovePlayer()
@@ -64,6 +66,7 @@ public class Player : MonoBehaviour
             anim.SetBool("IsJumping", false);
         }
     }
+
     void UpdateAnimation()
     {
         anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
@@ -77,18 +80,23 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("spike"))
+        if (other.gameObject.CompareTag("spike") && !isDead)
         {
-            
-           
-            StartCoroutine(ShowLostPanel());
+            StartCoroutine(Die());
         }
     }
-    private IEnumerator ShowLostPanel()
-    { 
-        anim.SetTrigger("IsDie");
-        yield return new WaitForSeconds(1.5f); 
-        Destroy(gameObject);
+
+    private IEnumerator Die()
+    {
+        isDead = true; 
+        rb.linearVelocity = Vector2.zero; 
+        rb.bodyType = RigidbodyType2D.Static; 
+        anim.SetTrigger("IsDie"); 
+
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length); // Chờ animation hoàn thành
+
         panelLost.SetActive(true); 
     }
 }
+
+
