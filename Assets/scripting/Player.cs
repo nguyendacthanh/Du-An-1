@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -12,20 +10,24 @@ public class Player : MonoBehaviour
     private Animator anim;
     private bool isGrounded;
     private bool facingRight = true; // Kiểm tra hướng nhân vật
+    private bool isDead = false; // Kiểm tra nếu player đã chết
     public GameObject panelLost;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); // Lấy Animator
+        anim = GetComponent<Animator>();
         rb.gravityScale = gravityScale;
     }
 
     void Update()
     {
-        MovePlayer();
-        Jump();
-        UpdateAnimation();
+        if (!isDead) // Chỉ cho phép di chuyển khi chưa chết
+        {
+            MovePlayer();
+            Jump();
+            UpdateAnimation();
+        }
     }
 
     void MovePlayer()
@@ -64,6 +66,7 @@ public class Player : MonoBehaviour
             anim.SetBool("IsJumping", false);
         }
     }
+
     void UpdateAnimation()
     {
         anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
@@ -77,18 +80,23 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("spike"))
+        if (other.gameObject.CompareTag("spike") && !isDead)
         {
-            
-           
-            StartCoroutine(ShowLostPanel());
+            StartCoroutine(Die());
         }
     }
-    private IEnumerator ShowLostPanel()
-    { 
-        anim.SetTrigger("IsDie");
-        yield return new WaitForSeconds(1.5f); 
-        Destroy(gameObject);
-        panelLost.SetActive(true); 
+
+    private IEnumerator Die()
+    {
+        isDead = true; // Đánh dấu Player đã chết
+        rb.linearVelocity = Vector2.zero; // Ngừng di chuyển
+        rb.bodyType = RigidbodyType2D.Static; // Ngăn mọi tác động vật lý
+        anim.SetTrigger("IsDie"); // Chạy animation chết
+
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length); // Chờ animation hoàn thành
+
+        panelLost.SetActive(true); // Hiển thị panel thua
     }
 }
+
+
