@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     private bool isGrounded;
     private bool facingRight = true; // Kiểm tra hướng nhân vật
     public GameObject panelLost;
+    private bool canJump = true;
+    private float jumpCooldown = 0.8f;
 
     void Start()
     {
@@ -48,21 +50,33 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            isGrounded = false;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); 
+            canJump = false; // Ngăn nhảy liên tục
             anim.SetBool("IsJumping", true);
+            StartCoroutine(ResetJump()); // Bắt đầu đếm thời gian cho phép nhảy lại
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        foreach (ContactPoint2D contact in collision.contacts)
         {
-            isGrounded = true;
-            anim.SetBool("IsJumping", false);
+            // Kiểm tra nếu tiếp đất từ trên xuống (không phải va chạm ngang)
+            if (collision.gameObject.CompareTag("Ground") && contact.normal.y > 0.5f)
+            {
+                canJump = true;
+                anim.SetBool("IsJumping", false);
+                break;
+            }
         }
+    }
+    
+    private IEnumerator ResetJump()
+    {
+        yield return new WaitForSeconds(jumpCooldown);
+        canJump = true;
     }
     void UpdateAnimation()
     {
