@@ -14,9 +14,9 @@ public class QuestAndAnswer: MonoBehaviour
         Vector3 spawnPosition1 = new Vector3(x, y1, DeathDoor.transform.position.z);
         Vector3 spawnPosition2 = new Vector3(x, y2, DeathDoor.transform.position.z);
         Vector3 spawnPosition3 = new Vector3(x, y3, DeathDoor.transform.position.z);
-        Vector3 P1 = new Vector3(495, -38, DeathDoor.transform.position.z);
-        Vector3 P2 = new Vector3(495, -63, DeathDoor.transform.position.z);
-        Vector3 P3 = new Vector3(495, -102, DeathDoor.transform.position.z);
+        Vector3 P1 = new Vector3(210, -50, DeathDoor.transform.position.z);
+        Vector3 P2 = new Vector3(210, -80, DeathDoor.transform.position.z);
+        Vector3 P3 = new Vector3(210, -110, DeathDoor.transform.position.z);
         int check = Random.Range(1, 3);
         if (check==1)
         {
