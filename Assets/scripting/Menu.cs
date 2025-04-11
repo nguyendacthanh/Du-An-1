@@ -18,8 +18,6 @@ public class Menu : MonoBehaviour
 
     public void ExitGame()
     {
-        PlayerPrefs.DeleteAll();
-        PlayerPrefs.Save();
         Application.Quit();
     }
 }

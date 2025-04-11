@@ -14,15 +14,12 @@ public class Player : MonoBehaviour
     private bool facingRight = true; // Kiểm tra hướng nhân vật
     public GameObject panelLost;
     private bool canJump = true;
-    private bool isDead = false;
-    public KeyCode moveLeftKey = KeyCode.A;
-    public KeyCode moveRightKey = KeyCode.D;
-    public KeyCode jumpKey = KeyCode.W;
+    private float jumpCooldown = 0.8f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>(); // Lấy Animator
         rb.gravityScale = gravityScale;
     }
 
@@ -35,15 +32,14 @@ public class Player : MonoBehaviour
 
     void MovePlayer()
     {
-        if (isDead) return;
         float moveX = 0f;
 
-        if (Input.GetKey(moveLeftKey ))
+        if (Input.GetKey(KeyCode.A))
         {
             moveX = -1;
             if (facingRight) Flip();
         }
-        if (Input.GetKey(moveRightKey))
+        if (Input.GetKey(KeyCode.D))
         {
             moveX = 1;
             if (!facingRight) Flip();
@@ -54,13 +50,12 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (isDead) return;
-        if (Input.GetKeyDown(jumpKey) && canJump)
+        if (Input.GetKeyDown(KeyCode.Space) && canJump)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); // sửa lại: linearVelocity → velocity
-            canJump = false; // Chỉ nhảy khi đang trên đất
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); 
+            canJump = false; // Ngăn nhảy liên tục
             anim.SetBool("IsJumping", true);
-            // KHÔNG cần coroutine nữa
+            StartCoroutine(ResetJump()); // Bắt đầu đếm thời gian cho phép nhảy lại
         }
     }
 
@@ -68,6 +63,7 @@ public class Player : MonoBehaviour
     {
         foreach (ContactPoint2D contact in collision.contacts)
         {
+            // Kiểm tra nếu tiếp đất từ trên xuống (không phải va chạm ngang)
             if (collision.gameObject.CompareTag("Ground") && contact.normal.y > 0.5f)
             {
                 canJump = true;
@@ -77,6 +73,11 @@ public class Player : MonoBehaviour
         }
     }
     
+    private IEnumerator ResetJump()
+    {
+        yield return new WaitForSeconds(jumpCooldown);
+        canJump = true;
+    }
     void UpdateAnimation()
     {
         anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
@@ -99,7 +100,6 @@ public class Player : MonoBehaviour
     }
     private IEnumerator ShowLostPanel()
     { 
-        isDead = true;
         anim.SetTrigger("IsDie");
         yield return new WaitForSeconds(1.5f); 
         Destroy(gameObject);
