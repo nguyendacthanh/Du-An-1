@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="Done">
+    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="SuaPlayerJump_Menu_LevelSave">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Last" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,20 +45,6 @@
         &quot;number&quot;: 1
       },
       &quot;lastSeen&quot;: 1742554411106
-    },
-    {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6PmP7A&quot;,
-        &quot;number&quot;: 2
-      },
-      &quot;lastSeen&quot;: 1742554418298
-    },
-    {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6QPg40&quot;,
-        &quot;number&quot;: 3
-      },
-      &quot;lastSeen&quot;: 1743065110845
     },
     {
       &quot;id&quot;: {
@@ -85,25 +72,17 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/1-15/Man1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/1-15/Man2.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/image/Sign Posts/01.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/EscScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/Level.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/Music.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/SaveLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4/Player4.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/Start and win/Door.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/UI/readWoodenSignButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/thongBao/woodenSign.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy/Editor/FindWorkspace.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -120,27 +99,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Update-0.1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="D:\Unity\6000.0.25f1\Editor\Unity.exe" />
@@ -209,6 +188,8 @@
       <workItem from="1743383606078" duration="2837000" />
       <workItem from="1743389853986" duration="28000" />
       <workItem from="1743411825484" duration="3805000" />
+      <workItem from="1744192505560" duration="4777000" />
+      <workItem from="1744364039256" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="code xong">
       <option name="closed" value="true" />
