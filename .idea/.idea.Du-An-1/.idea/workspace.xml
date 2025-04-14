@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="Done">
+    <list default="true" id="c6179ed7-5d9d-4571-9af2-927d9340fbcb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Account.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Account/account.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Account/account.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripting/Account.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/scripting/Account.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du-An-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Achievements.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Achievements.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Leaderboard.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Leaderboard.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Volume.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Free/Menu/Buttons/Volume.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/SaveLevel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/SaveLevel.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4/Player4.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4/Player4.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptThu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptThu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/WinPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/WinPanel.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +48,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Last" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,38 +56,24 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState">{
-  &quot;prStates&quot;: [
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6PmFmD&quot;,
-        &quot;number&quot;: 1
+      "id": {
+        "id": "PR_kwDOOJZk9M6PmFmD",
+        "number": 1
       },
-      &quot;lastSeen&quot;: 1742554411106
+      "lastSeen": 1742554411106
     },
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6PmP7A&quot;,
-        &quot;number&quot;: 2
+      "id": {
+        "id": "PR_kwDOOJZk9M6QtrX9",
+        "number": 4
       },
-      &quot;lastSeen&quot;: 1742554418298
-    },
-    {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6QPg40&quot;,
-        &quot;number&quot;: 3
-      },
-      &quot;lastSeen&quot;: 1743065110845
-    },
-    {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOJZk9M6QtrX9&quot;,
-        &quot;number&quot;: 4
-      },
-      &quot;lastSeen&quot;: 1743417799496
+      "lastSeen": 1743417799496
     }
   ]
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/nguyendacthanh/Du-An-1.git&quot;,
@@ -85,25 +91,15 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/1-15/Man1.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/Scenes/1-15/Man2.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/gate.jpg.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/image/Sign Posts/01.png.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/EscScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/LeaderBoard.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/Level.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/Music.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/UI/readWoodenSignButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/Volume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy/Editor/FindWorkspace.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/tatom/RiderProjects/Du-An-1/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -125,7 +121,7 @@
     "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Update-0.1",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
