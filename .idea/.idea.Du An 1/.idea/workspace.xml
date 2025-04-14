@@ -6,12 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Account/account.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Account/account.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man5.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripting/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/SpikesTrap (8).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/SpikesTrap (8).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/SpikesTrap.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/SpikesTrap.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/deadDoor.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/deadDoor.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/CauDo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/CauDo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/RightWay.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Start and win/RightWay.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/spikeTrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Traps/spikeTrap.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +125,7 @@
       <workItem from="1744512486562" duration="764000" />
       <workItem from="1744538065193" duration="4298000" />
       <workItem from="1744618307153" duration="468000" />
-      <workItem from="1744623569602" duration="1736000" />
+      <workItem from="1744623569602" duration="4129000" />
     </task>
     <servers />
   </component>

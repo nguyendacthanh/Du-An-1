@@ -97,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8724239991304793242}
   - component: {fileID: 946816100955004119}
-  - component: {fileID: 6036344283733886961}
+  - component: {fileID: 5050159728764522386}
   m_Layer: 0
   m_Name: SpikesTrap
   m_TagString: spike
@@ -168,7 +168,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.9137159, y: 0.44394732}
   m_EdgeRadius: 0
---- !u!114 &6036344283733886961
+--- !u!114 &5050159728764522386
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,7 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dba82a8148b957548beaf555d7a0a60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 322230333115787562, guid: 5401839c9817b904a87a2ff187a94540, type: 3}
+  player: {fileID: 0}
   panelLost: {fileID: 0}
 --- !u!1 &8377618581239573444
 GameObject:

@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class QuestAndAnswer : MonoBehaviour
@@ -12,8 +13,10 @@ public class QuestAndAnswer : MonoBehaviour
     public GameObject viTri2;
     public GameObject viTri3;
 
+
     private void Start()
     {
+
         Vector3 spawnPosition1 = viTri1.transform.position;
         Vector3 spawnPosition2 = viTri2.transform.position;
         Vector3 spawnPosition3 = viTri3.transform.position;
@@ -52,4 +55,7 @@ public class QuestAndAnswer : MonoBehaviour
             Instantiate(DeathDoor, spawnPosition1, Quaternion.identity);
         }
     }
+
+
+
 }

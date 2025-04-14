@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7435025510487599123}
   - component: {fileID: 5128577216942534350}
   - component: {fileID: 6961034630260287533}
+  - component: {fileID: 3504868014975312371}
   m_Layer: 0
   m_Name: deadDoor
   m_TagString: spike
@@ -157,3 +158,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3504868014975312371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5172860027643526628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dba82a8148b957548beaf555d7a0a60d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  panelLost: {fileID: 0}
