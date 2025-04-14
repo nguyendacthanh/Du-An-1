@@ -127,6 +127,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -178,10 +190,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13305,6 +13313,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -13357,10 +13377,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (7)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13379,6 +13395,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -13430,10 +13458,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13750,6 +13774,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -13802,10 +13838,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (3)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13824,6 +13856,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -13875,10 +13919,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (9)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14017,6 +14057,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -14068,10 +14120,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14202,6 +14250,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -14254,10 +14314,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (1)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14276,6 +14332,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -14327,10 +14395,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (12)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14432,6 +14496,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -14483,10 +14559,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14550,6 +14622,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -14601,10 +14685,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (13)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14744,6 +14824,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -14796,10 +14888,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (5)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14818,6 +14906,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -14869,10 +14969,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15707,6 +15803,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -15759,10 +15867,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (4)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15781,6 +15885,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -15832,10 +15948,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16365,6 +16477,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -16417,10 +16541,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap (11)
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16439,6 +16559,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1426991644}
     m_Modifications:
+    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: m_Name
+      value: SpikesTrap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2864801628507119814}
+    - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
+      propertyPath: panelLost
+      value: 
+      objectReference: {fileID: 1283578401}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -16490,10 +16622,6 @@ PrefabInstance:
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068076480953374992, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
-      propertyPath: m_Name
-      value: SpikesTrap
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16562,7 +16690,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chinh Ph\u1EE5c Th\u1EA5t B\u1EA1i"
+  m_text: "Chinh Ph\u1EE5c Th\u1EA5t B\u1EA1i\n:v \u0111\u1EC3 \xFD b\u1EABy \"ch\xF4ng\"
+    k\xECa anh b\u1EA1n."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

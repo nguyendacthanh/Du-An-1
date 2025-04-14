@@ -88,6 +88,4 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-
-
 }

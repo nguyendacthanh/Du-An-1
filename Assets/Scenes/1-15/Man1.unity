@@ -210,7 +210,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 125113064}
-  - component: {fileID: 125113065}
   m_Layer: 0
   m_Name: Room1
   m_TagString: Untagged
@@ -249,20 +248,6 @@ Transform:
   - {fileID: 747693027}
   m_Father: {fileID: 1206517378}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &125113065
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 125113063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dba82a8148b957548beaf555d7a0a60d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 2864801628507119814}
-  panelLost: {fileID: 1346190854}
 --- !u!4 &185421204 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3518174172864450118, guid: 727fe98fda5f19f44a6dc77b7229ea29, type: 3}
@@ -95069,7 +95054,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1705071766015631343, guid: aab397f88ce6503489baa18a5dea5855, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2779185391256768043, guid: aab397f88ce6503489baa18a5dea5855, type: 3}
       propertyPath: m_Name
