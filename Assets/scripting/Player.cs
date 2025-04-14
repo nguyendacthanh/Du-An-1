@@ -14,12 +14,15 @@ public class Player : MonoBehaviour
     private bool facingRight = true; // Kiểm tra hướng nhân vật
     public GameObject panelLost;
     private bool canJump = true;
-    private float jumpCooldown = 0.8f;
+    private bool isDead = false;
+    public KeyCode moveLeftKey = KeyCode.A;
+    public KeyCode moveRightKey = KeyCode.D;
+    public KeyCode jumpKey = KeyCode.W;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); // Lấy Animator
+        anim = GetComponent<Animator>();
         rb.gravityScale = gravityScale;
     }
 
@@ -32,14 +35,15 @@ public class Player : MonoBehaviour
 
     void MovePlayer()
     {
+        if (isDead) return;
         float moveX = 0f;
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(moveLeftKey ))
         {
             moveX = -1;
             if (facingRight) Flip();
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(moveRightKey))
         {
             moveX = 1;
             if (!facingRight) Flip();
@@ -50,12 +54,13 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && canJump)
+        if (isDead) return;
+        if (Input.GetKeyDown(jumpKey) && canJump)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); 
-            canJump = false; // Ngăn nhảy liên tục
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); // sửa lại: linearVelocity → velocity
+            canJump = false; // Chỉ nhảy khi đang trên đất
             anim.SetBool("IsJumping", true);
-            StartCoroutine(ResetJump()); // Bắt đầu đếm thời gian cho phép nhảy lại
+            // KHÔNG cần coroutine nữa
         }
     }
 
@@ -63,7 +68,6 @@ public class Player : MonoBehaviour
     {
         foreach (ContactPoint2D contact in collision.contacts)
         {
-            // Kiểm tra nếu tiếp đất từ trên xuống (không phải va chạm ngang)
             if (collision.gameObject.CompareTag("Ground") && contact.normal.y > 0.5f)
             {
                 canJump = true;
@@ -73,11 +77,6 @@ public class Player : MonoBehaviour
         }
     }
     
-    private IEnumerator ResetJump()
-    {
-        yield return new WaitForSeconds(jumpCooldown);
-        canJump = true;
-    }
     void UpdateAnimation()
     {
         anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
@@ -88,6 +87,4 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-
-
 }
