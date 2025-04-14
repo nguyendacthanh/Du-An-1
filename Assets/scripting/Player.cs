@@ -89,20 +89,5 @@ public class Player : MonoBehaviour
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("spike"))
-        {
-            
-           
-            StartCoroutine(ShowLostPanel());
-        }
-    }
-    private IEnumerator ShowLostPanel()
-    { 
-        anim.SetTrigger("IsDie");
-        yield return new WaitForSeconds(1.5f); 
-        Destroy(gameObject);
-        panelLost.SetActive(true); 
-    }
+
 }
