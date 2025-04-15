@@ -96143,6 +96143,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4265774920578179371, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
+      propertyPath: m_text
+      value: " Ch\xE0o m\u1EEBng, ng\u01B0\u1EDDi b\u1EA1n m\u1EDBi c\u1EE7a t\xF4i.\nT\xF4i
+        \u0111\xE3 ch\u1EDD  b\u1EA1n l\xE2u r\u1ED3i ng\u01B0\u1EDDi \u0111\u1EB7c
+        bi\u1EC7t.\n\u0110\u1EEBng s\u1EE3, b\u1EA1n ch\xEDnh l\xE0 ng\u01B0\u1EDDi
+        \u0111\u01B0\u1EE3c ch\u1ECDn \u0111\u1EC3 chinh ph\u1EE5c t\xF4i. ch\u1EC9
+        c\u1EA7n b\u1EA1n t\xECm \u0111\u01B0\u1EE3c c\xE1nh c\u1EEDa d\u1EABn kh\u1ECFi
+        \u0111\xE2y. B\u1EA1n s\u1EBD nh\u1EADn \u0111\u01B0\u1EE3c 1 \u0111i\u1EC1u
+        \u01B0\u1EDBc. Nhung c\xE1i g\xEC c\u0169ng c\xF3 c\xE1i gi\xE1 c\u1EE7a
+        n\xF3 \u0111\xFAng kh\xF4ng. t\u1EA5t nhi\xEAn \u0111\u1EEBng \u0111\u1EC3
+        m\u1EA5t m\u1EA1ng b\u1EDFi t\xF4i l\xE0 ng\u01B0\u1EDDi canh g\xE1c m\xF3n
+        qu\xE0 d\xE0nh cho ai x\u1EE9ng \u0111\xE1ng. ch\u1EE9ng minh b\u1EA3n th\xE2n
+        b\u1EA1n l\xE0 ng\u01B0\u1EDDi t\xF4i t\xECm \u0111i \n\n\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalPosition.x
       value: -112.7

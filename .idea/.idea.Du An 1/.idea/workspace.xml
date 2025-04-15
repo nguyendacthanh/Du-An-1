@@ -8,13 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripting/Player.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripting/Player.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/readWoodenSignButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/UI/readWoodenSignButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +121,7 @@
       <workItem from="1744538065193" duration="4298000" />
       <workItem from="1744618307153" duration="468000" />
       <workItem from="1744623569602" duration="5491000" />
-      <workItem from="1744702503744" duration="2487000" />
+      <workItem from="1744702503744" duration="3711000" />
     </task>
     <servers />
   </component>

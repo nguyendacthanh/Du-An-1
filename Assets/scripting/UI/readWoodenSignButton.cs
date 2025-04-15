@@ -5,7 +5,7 @@ using UnityEngine;
 public class readWoodenSignButton : MonoBehaviour
 {
     public GameObject panelReadWoodenSign;
-   
+    public GameObject ButtonOfPlayer;
     
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -13,6 +13,7 @@ public class readWoodenSignButton : MonoBehaviour
         if (other.gameObject.CompareTag("main"))
         {
             panelReadWoodenSign.SetActive(true);
+            ButtonOfPlayer.SetActive(false);
         }
         else
         {
@@ -24,6 +25,8 @@ public class readWoodenSignButton : MonoBehaviour
         if (other.gameObject.CompareTag("main"))
         {
             panelReadWoodenSign.SetActive(false);
+            ButtonOfPlayer.SetActive(true);
+
         }
         else
         {

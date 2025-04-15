@@ -13622,15 +13622,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4265774920578179371, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_text
-      value: 
+      value: "H\u1ED3. Gi\u1ECFi l\u1EAFm anh b\u1EA1n. V\u1EADy ta n\xE2ng t\u1EA7m
+        cu\u1ED9c ch\u01A1i th\xEAm 1 t\xFD nh\xE9."
       objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -112.7
+      value: -96
       objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 26.9
+      value: 32.5
       objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13952,6 +13953,11 @@ Transform:
   - {fileID: 210518520}
   m_Father: {fileID: 1889310257}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &700720570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7130319090558193878, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
+  m_PrefabInstance: {fileID: 430782287}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &715731821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15478,7 +15484,7 @@ Transform:
   m_GameObject: {fileID: 1310952270}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -112.7, y: 26.9, z: -10}
+  m_LocalPosition: {x: -96, y: 32.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15674,7 +15680,7 @@ Transform:
   m_GameObject: {fileID: 1463209896}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -112.7, y: 26.9, z: -10}
+  m_LocalPosition: {x: -96, y: 32.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -94728,6 +94734,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 794464596}
     m_Modifications:
+    - target: {fileID: 556768336476833860, guid: 727fe98fda5f19f44a6dc77b7229ea29, type: 3}
+      propertyPath: ButtonOfPlayer
+      value: 
+      objectReference: {fileID: 700720570}
     - target: {fileID: 1286744437799947818, guid: 727fe98fda5f19f44a6dc77b7229ea29, type: 3}
       propertyPath: tmp2
       value: 
