@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    public GameObject main; 
-    public float x, y; 
+    public GameObject main,viTri; 
+    
 
     private Animator _animator;
 
@@ -34,7 +34,9 @@ public class Door : MonoBehaviour
 
     private IEnumerator Teleport()
     {
+        Vector3 newPosition = viTri.transform.position;
         yield return new WaitForSeconds(1.5f);
-        main.transform.position = new Vector3(x, y, main.transform.position.z); 
+        main.transform.position = new Vector3(newPosition.x + 5, newPosition.y, main.transform.position.z);
+    
     }
 }
