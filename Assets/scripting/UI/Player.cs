@@ -12,12 +12,12 @@ public class Player : MonoBehaviour
     private Animator anim;
     private bool isGrounded;
     private bool facingRight = true; // Kiểm tra hướng nhân vật
-    public GameObject panelLost;
     private bool canJump = true;
     private bool isDead = false;
     public KeyCode moveLeftKey = KeyCode.A;
     public KeyCode moveRightKey = KeyCode.D;
     public KeyCode jumpKey = KeyCode.W;
+
 
     void Start()
     {
@@ -87,4 +87,5 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
+
 }

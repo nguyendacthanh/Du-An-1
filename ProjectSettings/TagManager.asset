@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Man7
   - spike
+  - sign
   layers:
   - Default
   - TransparentFX
