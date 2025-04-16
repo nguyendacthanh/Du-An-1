@@ -6,13 +6,15 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
 {
     public float speed = 5f;
     private int direction = 1;
-    private Animator animator;
+    private Animator animator,anim;
     private bool isWaiting = false;
-    public float timeDelay = 1f; 
+    public float timeDelay = 1f;
+    public GameObject player,panelLost;
 
     private void Start()
     {
         animator = GetComponent<Animator>();
+        anim=player.GetComponent<Animator>();
     }
 
     void Update()
@@ -33,7 +35,8 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
 
         if (other.gameObject.CompareTag("main"))
         {
-            Destroy(other.gameObject);
+            
+            StartCoroutine(ShowLostPanel());
         }
     }
 
@@ -45,7 +48,8 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
         }
         if (other.gameObject.CompareTag("main"))
         {
-            Destroy(other.gameObject);
+            
+            StartCoroutine(ShowLostPanel());
         }
     }
 
@@ -66,5 +70,12 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
         direction *= -1;
 
         isWaiting = false;
+    }
+    private IEnumerator ShowLostPanel()
+    { 
+        anim.SetTrigger("IsDie");
+        yield return new WaitForSeconds(1.5f); 
+        Destroy(player);
+        panelLost.SetActive(true); 
     }
 }
