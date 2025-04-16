@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="test something" />
+    <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="test something">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +123,7 @@
       <workItem from="1744702503744" duration="3711000" />
       <workItem from="1744719875223" duration="5182000" />
       <workItem from="1744791312259" duration="2353000" />
-      <workItem from="1744796487491" duration="194000" />
+      <workItem from="1744796487491" duration="948000" />
     </task>
     <task id="LOCAL-00001" summary="test something">
       <option name="closed" value="true" />
