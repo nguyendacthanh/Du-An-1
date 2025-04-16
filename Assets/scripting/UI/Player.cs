@@ -2,22 +2,23 @@ using System;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
-
 public class Player : MonoBehaviour
 {
-    private float moveSpeed = 50f; // Tốc độ di chuyển
-    private float jumpForce = 100f; // Lực nhảy
-    public float gravityScale = 1f; // Mức trọng lực
+    private float moveSpeed = 50f;
+    private float jumpForce = 100f;
+    public float gravityScale = 1f;
     private Rigidbody2D rb;
     private Animator anim;
-    private bool isGrounded;
-    private bool facingRight = true; // Kiểm tra hướng nhân vật
+    private bool facingRight = true;
     private bool canJump = true;
     private bool isDead = false;
+
     public KeyCode moveLeftKey = KeyCode.A;
     public KeyCode moveRightKey = KeyCode.D;
     public KeyCode jumpKey = KeyCode.W;
 
+    // 👉 Thêm biến cho Button UI
+    private float moveInput = 0f;
 
     void Start()
     {
@@ -36,18 +37,22 @@ public class Player : MonoBehaviour
     void MovePlayer()
     {
         if (isDead) return;
-        float moveX = 0f;
 
-        if (Input.GetKey(moveLeftKey ))
+        float moveX = moveInput; // moveInput mặc định = 0, chỉ có giá trị nếu có button UI nhấn
+
+        // Bàn phím vẫn hoạt động bình thường
+        if (Input.GetKey(moveLeftKey))
         {
             moveX = -1;
-            if (facingRight) Flip();
         }
         if (Input.GetKey(moveRightKey))
         {
             moveX = 1;
-            if (!facingRight) Flip();
         }
+
+        // Xử lý Flip
+        if (moveX < 0 && facingRight) Flip();
+        else if (moveX > 0 && !facingRight) Flip();
 
         rb.linearVelocity = new Vector2(moveX * moveSpeed, rb.linearVelocity.y);
     }
@@ -55,12 +60,12 @@ public class Player : MonoBehaviour
     void Jump()
     {
         if (isDead) return;
+
         if (Input.GetKeyDown(jumpKey) && canJump)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); // sửa lại: linearVelocity → velocity
-            canJump = false; // Chỉ nhảy khi đang trên đất
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            canJump = false;
             anim.SetBool("IsJumping", true);
-            // KHÔNG cần coroutine nữa
         }
     }
 
@@ -76,7 +81,7 @@ public class Player : MonoBehaviour
             }
         }
     }
-    
+
     void UpdateAnimation()
     {
         anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
@@ -88,4 +93,29 @@ public class Player : MonoBehaviour
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
 
+    // 🟢 Gọi từ UI Button
+    public void JumpFromButton()
+    {
+        if (isDead || !canJump) return;
+
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+        canJump = false;
+        anim.SetBool("IsJumping", true);
+    }
+
+    public void MoveLeftButtonDown()
+    {
+        moveInput = -1f;
+    }
+
+    public void MoveRightButtonDown()
+    {
+        moveInput = 1f;
+    }
+
+    public void MoveButtonUp()
+    {
+        moveInput = 0f;
+    }
 }
+
