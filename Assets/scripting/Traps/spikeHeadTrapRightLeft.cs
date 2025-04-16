@@ -30,6 +30,11 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
         {
             StartCoroutine(WaitAndFlipDirection());
         }
+
+        if (other.gameObject.CompareTag("main"))
+        {
+            Destroy(other.gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -37,6 +42,10 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
         if (other.gameObject.CompareTag("ChanceMove") && !isWaiting)
         {
             StartCoroutine(WaitAndFlipDirection());
+        }
+        if (other.gameObject.CompareTag("main"))
+        {
+            Destroy(other.gameObject);
         }
     }
 
