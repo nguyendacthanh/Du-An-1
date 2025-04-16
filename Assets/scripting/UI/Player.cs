@@ -16,8 +16,7 @@ public class Player : MonoBehaviour
     public KeyCode moveLeftKey = KeyCode.A;
     public KeyCode moveRightKey = KeyCode.D;
     public KeyCode jumpKey = KeyCode.W;
-
-    // 👉 Thêm biến cho Button UI
+    
     private float moveInput = 0f;
 
     void Start()
@@ -92,8 +91,7 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-
-    // 🟢 Gọi từ UI Button
+    
     public void JumpFromButton()
     {
         if (isDead || !canJump) return;
