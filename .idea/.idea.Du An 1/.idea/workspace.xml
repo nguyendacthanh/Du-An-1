@@ -6,6 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man13.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man13.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man13.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man13.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man14.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man14.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man14.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man14.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man15.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man15.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man15.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man15.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man8.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man9.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man9.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man9.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Left Hit (54x52).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Left Hit (54x52).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Right Hit (54x52).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Right Hit (54x52).png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/SpikesTrap.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/SpikesTrap.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/deadDoor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/deadDoor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +144,7 @@
       <workItem from="1744623569602" duration="5491000" />
       <workItem from="1744702503744" duration="3711000" />
       <workItem from="1744719875223" duration="5182000" />
+      <workItem from="1744791312259" duration="2353000" />
     </task>
     <servers />
   </component>

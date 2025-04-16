@@ -30292,15 +30292,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1268901614321017219, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: jumpKey
-      value: 97
+      value: 273
       objectReference: {fileID: 0}
     - target: {fileID: 1268901614321017219, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: moveLeftKey
-      value: 100
+      value: 276
       objectReference: {fileID: 0}
     - target: {fileID: 1268901614321017219, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: moveRightKey
-      value: 119
+      value: 275
       objectReference: {fileID: 0}
     - target: {fileID: 4265774920578179371, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_text
@@ -111539,7 +111539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8940741821030508905, guid: 727fe98fda5f19f44a6dc77b7229ea29, type: 3}
       propertyPath: m_text
-      value: '     D A W'
+      value: "     s\u1EED d\u1EE5ng m\u0169i t\xEAn"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

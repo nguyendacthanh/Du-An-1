@@ -9,6 +9,7 @@ TagManager:
   - Man7
   - spike
   - sign
+  - ChanceMove
   layers:
   - Default
   - TransparentFX
