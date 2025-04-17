@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="">
+    <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="11 12">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man10.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man13.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man13.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man14.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man14.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man15.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man15.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man8.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man8.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Bottom Hit (54x52).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Bottom Hit (54x52).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Top Hit (54x52).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Other/Traps/Spike Head/Top Hit (54x52).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/Door.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Start and win/Door.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Cannon Ball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Cannon Ball.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Idle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ButtonKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/ButtonKey.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +43,7 @@
     <setting file="mock://E:/Unity/Project/Du An 1/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://E:/Unity/Project/Du An 1/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/CauDo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/scripting/Traps/cannon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripting/UI/PlayerShowStory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap/Editor/GridEditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -140,7 +129,7 @@
       <workItem from="1744719875223" duration="5182000" />
       <workItem from="1744791312259" duration="2353000" />
       <workItem from="1744796487491" duration="4393000" />
-      <workItem from="1744864808264" duration="4939000" />
+      <workItem from="1744864808264" duration="7940000" />
     </task>
     <task id="LOCAL-00001" summary="test something">
       <option name="closed" value="true" />
@@ -150,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744796587498</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="11 12">
+      <option name="closed" value="true" />
+      <created>1744879087548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744879087548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="test something" />
-    <option name="LAST_COMMIT_MESSAGE" value="test something" />
+    <MESSAGE value="11 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="11 12" />
   </component>
 </project>
