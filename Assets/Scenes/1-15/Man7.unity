@@ -25076,12 +25076,11 @@ PrefabInstance:
     - target: {fileID: 4265774920578179371, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_text
       value: "\xF4i. ng\u01B0\u01A1i th\u1EADt s\u1EF1 khi\u1EBFn ta b\u1EA5t ng\u1EDD
-        khi c\xF3 th\u1EC3 \u0111i t\u1EDBi \u0111\u01B0\u1EE3c g\u1EA7n 1 n\u1EEDa
-        h\xE0nh tr\xECnh \u0111\xF3. th\u1EADt ra \u0111i t\u1EDBi \u0111\xE2y c\u0169ng
-        c\xF3 th\u1EC3 coi l\xE0 1 n\u1EEDa h\xE0nh tr\xECnh r\u1ED3i. m\xE0 sao
-        c\u0169ng \u0111\u01B0\u1EE3c. c\xF3 l\u1EBD th\u1EF1c s\u1EF1 ta ngh\u0129
-        ph\u1EA3i chia tay v\u1EDBi nh\xE0 ng\u01B0\u01A1i \u1EDF \u0111\xE2y \u0111\u01B0\u1EE3c
-        r\u1ED3i."
+        khi c\xF3 th\u1EC3 v\u01B0\u1EE3t qua ng\u1EA7n \u1EA5y \u0111\u1EC3 t\u1EDBi
+        t\u1EADn \u0111\xE2y. Th\u1EBF nh\u01B0ng li\u1EC7u ng\u01B0\u01A1i c\xF3
+        th\u1EC3 v\u01B0\u1EE3t qua m\xE0n n\xE0y kh\xF4ng th\xEC..... N\u1EBFu c\xF3
+        th\u1EC3 qua ta s\u1EBD d\xE0nh 1 s\u1EF1 t\xF4n tr\u1ECDng cho ng\u01B0\u01A1i
+        sinh v\u1EADt th\u1EA5p k\xE9m."
       objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalPosition.x

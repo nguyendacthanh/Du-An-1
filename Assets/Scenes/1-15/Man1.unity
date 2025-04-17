@@ -322,7 +322,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chinh Ph\u1EE5c Th\u1EA5t B\u1EA1i\nN\xE9 spike ra b\u1EA1n \xEAy"
+  m_text: "Chinh Ph\u1EE5c Th\u1EA5t B\u1EA1i\n   Ch\u1EBFt b\u1EDFi ch\xF4ng"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -420,7 +420,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -512,7 +512,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -79618,7 +79618,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -111175,7 +111175,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -111257,7 +111257,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -111344,7 +111344,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -111426,7 +111426,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -111730,7 +111730,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -112650,7 +112650,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -112945,7 +112945,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -113027,7 +113027,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -113109,7 +113109,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -113790,7 +113790,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -113877,7 +113877,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -114006,7 +114006,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -114088,7 +114088,7 @@ PrefabInstance:
     - target: {fileID: 5050159728764522386, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: panelLost
       value: 
-      objectReference: {fileID: 532159112}
+      objectReference: {fileID: 1346190854}
     - target: {fileID: 8724239991304793242, guid: 24d3177777746984388e6fa2d7e0f451, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -114330,15 +114330,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4265774920578179371, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_text
-      value: " Hahahaha, con s\xE2u \u0111\xE1ng th\u01B0\u01A1ng.  m\xE0y \u0111\xE3
-        s\u1EB5n s\xE0ng \u0111\u1EC3 ch\u1EBFt ch\u01B0a. B\u1EDFi v\xEC t\u1EEB
-        gi\u1EDD k\u1EBFt c\u1EE5c c\u1EE7a m\xE0y ch\u1EC9 c\xF3 th\u1EC3 l\xE0
-        c\xE1i ch\u1EBFt th\xF4i. \nNh\u01B0ng tr\u01B0\u1EDBc h\u1EBFt h\xE3y ph\u1EA3n
-        kh\xE1ng trong tuy\u1EC7t v\u1ECDng \u0111\u1EC3 th\u1ECFa m\xE3n v\u1ECB
-        gi\xE1c c\u1EE7a tao \u0111i n\xE0o.\n\u0110\u1EEBng lo v\xEC tao l\xE0 m\u1ED9t
-        k\u1EBB ch\u01A1i \u0111\u1EB9p. V\u1EADy n\xEAn, n\u1EBFu m\xE0y c\xF3 b\u1EA3n
-        l\u0129nh th\xEC tao s\u1EBD \u0111\u1EC3 m\xE0y ra kh\u1ECFi \u0111\xE2y,
-        con chu\u1ED9t tham lam.\n"
+      value: " Muahahahaha, ch\xE0o m\u1EEBng ng\u01B0\u01A1i t\u1EDBi v\u1EDBi ta,
+        con s\xE2u \u0111\xE1ng th\u01B0\u01A1ng, m\xE0y \u0111\xE3 s\u1EB5n s\xE0ng
+        \u0111\u1EC3 ch\u1EBFt ch\u01B0a? B\u1EDFi v\xEC t\u1EEB gi\u1EDD k\u1EBFt
+        c\u1EE5c c\u1EE7a m\xE0y ch\u1EC9 c\xF3 th\u1EC3 l\xE0 c\xE1i ch\u1EBFt th\xF4i.
+        \nNh\u01B0ng tr\u01B0\u1EDBc h\u1EBFt h\xE3y ph\u1EA3n kh\xE1ng trong tuy\u1EC7t
+        v\u1ECDng \u0111\u1EC3 th\u1ECFa m\xE3n v\u1ECB gi\xE1c c\u1EE7a tao \u0111i
+        n\xE0o.\nnh\u01B0ng c\u0169ng \u0111\u1EEBng qu\xE1 lo v\xEC tao l\xE0 m\u1ED9t
+        k\u1EBB ch\u01A1i \u0111\u1EB9p. V\u1EADy n\xEAn, tao \u0111\xE3 t\u1EA1o
+        ra m\u1ED9t v\xE0i g\u1EE3i \xFD \u0111\u1EC3 m\xE0y c\xF3 th\u1EC3 tho\xE1t
+        kh\u1ECFi \u0111\xE2y n\u1EBFu m\xE0y c\xF3 b\u1EA3n l\u0129nh \u0111\u1EE7
+        \u0111\u1EC3 v\u01B0\u1EE3t qua. \nV\u1EADy nh\xE9, gi\u1EDD b\u1EAFt \u0111\u1EA7u
+        th\xF4i n\xE0o, h\xE3y ph\u1EA3n kh\xE1ng, h\xE3y v\xF9ng l\xEAn, d\xF9ng
+        ch\xFAt s\u1EE9c h\xE8n m\u1ECDn c\u1EE7a ng\u01B0\u01A1i \u0111\u1EC3 gi\xE3y
+        d\u1EE5a v\xE0 l\xE0m ta th\u1ECFa m\xE3n tr\u01B0\u1EDBc khi ta h\xF2a ng\u01B0\u01A1i
+        v\xE0o l\xE0m 1 ph\u1EA7n c\u1EE7a ta.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalPosition.x
