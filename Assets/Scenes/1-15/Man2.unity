@@ -245,7 +245,7 @@ TilemapCollider2D:
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2f43b3b9329d4904c83277a1c12d6aa2, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -30402,6 +30402,10 @@ PrefabInstance:
       propertyPath: moveRightKey
       value: 275
       objectReference: {fileID: 0}
+    - target: {fileID: 2999725365868544793, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 2f43b3b9329d4904c83277a1c12d6aa2, type: 2}
     - target: {fileID: 4265774920578179371, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_text
       value: "He! Ng\u01B0\u01A1i ch\u1EAFc kh\xF4ng ngh\u0129 r\u1EB1ng b\u1EA3n

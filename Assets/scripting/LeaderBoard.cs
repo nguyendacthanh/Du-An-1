@@ -57,20 +57,27 @@ public class Leaderboard : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        // Tạo mục mới với xếp hạng
         int rank = 1;
+        int displayRank = 1;
+        int? lastLevel = null;
+
         foreach (var account in accountDataList)
         {
+            // Nếu level khác thì tăng rank hiển thị
+            if (lastLevel != null && account.level != lastLevel)
+            {
+                displayRank = rank;
+            }
+
             GameObject accountItem = Instantiate(accountItemPrefab, accountListContent);
             TMP_Text[] texts = accountItem.GetComponentsInChildren<TMP_Text>();
 
-            if (texts.Length >= 3)
+            if (texts.Length >= 1)
             {
-                texts[0].text = "#" + rank.ToString();                // Rank
-                texts[1].text = account.username;                     // Username
-                texts[2].text = "Level: " + account.level.ToString(); // Level
+                texts[0].text = $"#{displayRank}. {account.username} / Level: {account.level}";
             }
 
+            lastLevel = account.level;
             rank++;
         }
 
