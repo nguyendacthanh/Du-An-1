@@ -4,7 +4,7 @@ using UnityEngine;
 public class ButtonOfCannon : MonoBehaviour
 {
     // demo 
-    private float speed = 0.5f;      // Tốc độ di chuyển
+    public float speed = 0.5f;      // Tốc độ di chuyển
     private float startY;          // Vị trí Y ban đầu
     public GameObject button;
     private bool isMovingDown = false,isMovingUp = false;
@@ -53,7 +53,8 @@ public class ButtonOfCannon : MonoBehaviour
             {
                 button.transform.position = new Vector3(button.transform.position.x, startY - 1.3f, button.transform.position.z);
                 isMovingDown = false;
-                Cannon.GetComponent<cannon>()
+                Cannon.GetComponent<cannon>().Fire(); 
+
             }
         }
         if (isMovingUp)
@@ -61,6 +62,7 @@ public class ButtonOfCannon : MonoBehaviour
             button.transform.position += Vector3.up * speed * Time.deltaTime;
             if (button.transform.position.y >= startY)
             {
+                
                 button.transform.position = new Vector3(button.transform.position.x, startY, button.transform.position.z);
                 isMovingUp = false;
             }

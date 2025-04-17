@@ -10,6 +10,8 @@ TagManager:
   - spike
   - sign
   - ChanceMove
+  - walldoor
+  - winningdoor
   layers:
   - Default
   - TransparentFX

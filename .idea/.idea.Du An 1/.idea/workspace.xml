@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="11 12">
+    <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Cannon Ball.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Cannon Ball.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Idle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Sprites/10-Cannon/Idle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripting/ButtonKey.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/ButtonKey.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/level2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/WinningDoor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Start and win/WinningDoor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Traps/Bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/ButtonOfCannon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Traps/ButtonOfCannon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +131,8 @@
       <workItem from="1744719875223" duration="5182000" />
       <workItem from="1744791312259" duration="2353000" />
       <workItem from="1744796487491" duration="4393000" />
-      <workItem from="1744864808264" duration="7940000" />
+      <workItem from="1744864808264" duration="11509000" />
+      <workItem from="1744888067506" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="test something">
       <option name="closed" value="true" />
