@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    public GameObject main,viTri; 
+    public GameObject main,viTri;
+    public float potisionTele;
     
 
     private Animator _animator;
@@ -36,7 +37,7 @@ public class Door : MonoBehaviour
     {
         Vector3 newPosition = viTri.transform.position;
         yield return new WaitForSeconds(1.5f);
-        main.transform.position = new Vector3(newPosition.x + 5, newPosition.y, main.transform.position.z);
+        main.transform.position = new Vector3(newPosition.x + potisionTele, newPosition.y, main.transform.position.z);
     
     }
 }
