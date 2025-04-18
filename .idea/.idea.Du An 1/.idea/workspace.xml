@@ -5,11 +5,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/20.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/20.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CotTruyen.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CotTruyen.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Man1-19_Khung.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Man1-19_Khung.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Man10-20_Mau.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Man10-20_Mau.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/Thông báo.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/Thông báo.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/ChiDan_And_ThongBao/wooden sign.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/Cannon/Cannon Bullet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/Cannon/Cannon Bullet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/Cannon/buttonofCanon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/Cannon/buttonofCanon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/Cannon/canon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/Cannon/canon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/SpikesTrap.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/SpikesTrap.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/deadDoor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/deadDoor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/spikeHead.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/prefab/Trap/spikeHead.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Account.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Account.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/BackToMenu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/BackToMenu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ButtonKey.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ButtonKey.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ColorTextExample.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ColorTextExample.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/EscScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/EscScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LeaderBoard.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LeaderBoard.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Level.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Level.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LevelMNG.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LevelMNG.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LevelSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LevelSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LosePanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/LosePanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Menu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Menu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Music.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Music.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/NoFriction.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/NoFriction.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4/Player4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Level4/Player4.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/CauDo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/CauDo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/teleport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/teleport.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/buttonkeys.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/buttonkeys.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/level12.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/level12/gate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/level12/gate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/Door.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/Door.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/RightWay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/RightWay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/WinningDoor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Start and win/WinningDoor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/Bullet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/Bullet.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/ButtonOfCannon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/ButtonOfCannon.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/cannon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/cannon.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/maintest.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/maintest.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/spikeHeadTrapRightLeft.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/spikeHeadTrapRightLeft.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/spikeHeadTrapUpDown.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/spikeHeadTrapUpDown.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/spikeTrap.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/spikeTrap.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/walldoor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Traps/walldoor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/LoadScene.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/LoadScene.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/PlayerShowStory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/PlayerShowStory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/readWoodenSignButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/UI/readWoodenSignButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Volume.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Volume.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/WinPanel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/WinPanel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/thongBao.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/thongBao/woodenSign.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/thongBao/woodenSign.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +231,7 @@
       <workItem from="1744864808264" duration="11509000" />
       <workItem from="1744888067506" duration="2447000" />
       <workItem from="1744972444895" duration="18000" />
+      <workItem from="1744973229550" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="test something">
       <option name="closed" value="true" />
