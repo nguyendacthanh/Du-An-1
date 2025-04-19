@@ -6,7 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/01-Artboard.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/01-Artboard.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/02-KingHuman.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/02-KingHuman.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/03-Pig.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/03-Pig.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/04-PigBox.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/04-PigBox.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/05-PigBoom.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/05-PigBoom.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/06-PigHide.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/06-PigHide.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/07-KingPig.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/07-KingPig.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/08-Bomb.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/08-Bomb.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/09-Box.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/09-Box.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/10-Cannon and Pig.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/10-Cannon and Pig.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/11-Door.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/11-Door.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/12-Lives and Coins.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/12-Lives and Coins.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/13-Dialogue.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/13-Dialogue.aseprite.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/scripting/Dark Thanh/spikeHeadTrapUpDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Dark Thanh/spikeHeadTrapUpDown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +31,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/Update-0.5" />
+    <option name="BRANCH" value="origin/Update_0.7" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -38,10 +55,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/scripting/ScriptPerLevel/Lever6/CauDo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripting/Traps/cannon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/scripting/UI/PlayerShowStory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap/Editor/GridEditorUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.visualstudio/Editor/Testing/TestAdaptor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui/Runtime/TMP/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -67,7 +82,7 @@
 }</component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\Unity\6000.0.25f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\Unity\6000.0.47f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;E:\Unity\Project\Du An 1&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Unity\Project\Du An 1" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -75,7 +90,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="E:\Unity\6000.0.25f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\Unity\6000.0.47f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;E:\Unity\Project\Du An 1&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\Unity\Project\Du An 1" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -130,6 +145,7 @@
       <workItem from="1744888067506" duration="2447000" />
       <workItem from="1744972444895" duration="18000" />
       <workItem from="1744973229550" duration="1795000" />
+      <workItem from="1745068476884" duration="1631000" />
     </task>
     <task id="LOCAL-00001" summary="test something">
       <option name="closed" value="true" />

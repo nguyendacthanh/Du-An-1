@@ -32,9 +32,10 @@ public class spikeHeadTrap : MonoBehaviour
             StartCoroutine(WaitAndFlipDirection());
         }
 
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("main"))
         {
             StartCoroutine(ShowLostPanel());
+            Destroy(other.gameObject);
         }
     }
 
