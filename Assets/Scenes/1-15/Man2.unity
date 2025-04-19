@@ -111659,7 +111659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8940741821030508905, guid: 727fe98fda5f19f44a6dc77b7229ea29, type: 3}
       propertyPath: m_text
-      value: "     s\u1EED d\u1EE5ng m\u0169i t\xEAn"
+      value: "s\u1EED d\u1EE5ng m\u0169i t\xEAn"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
