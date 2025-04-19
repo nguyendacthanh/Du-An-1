@@ -127278,7 +127278,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Chinh Ph\u1EE5c Th\u1EA5t B\u1EA1i\n   Ch\u1EBFt b\u1EDFi ch\xF4ng"
+  m_text: "B\u1EA1n b\u1ECB ch\u1EBFt b\u1EDFi ch\xF4ng\nChinh Ph\u1EE5c Th\u1EA5t
+    B\u1EA1i\n   "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
