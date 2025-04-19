@@ -636,6 +636,10 @@ PrefabInstance:
       propertyPath: jumpSound
       value: 
       objectReference: {fileID: 8300000, guid: 9fd309d93750dd7498b63ee0e4647679, type: 3}
+    - target: {fileID: 1756023353552273987, guid: 5401839c9817b904a87a2ff187a94540, type: 3}
+      propertyPath: requiredJumpPresses
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2921468624250137022, guid: 5401839c9817b904a87a2ff187a94540, type: 3}
       propertyPath: m_SortingOrder
       value: 5

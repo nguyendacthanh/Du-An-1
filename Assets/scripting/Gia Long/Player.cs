@@ -21,15 +21,20 @@ public class Player : MonoBehaviour
     public AudioClip runSound;
     public AudioClip jumpSound;
 
-    private AudioSource runAudioSource; 
-    private AudioSource sfxAudioSource; 
+    private AudioSource runAudioSource;
+    private AudioSource sfxAudioSource;
+
+    public int requiredJumpPresses = 1;
+    private int currentJumpPresses = 0;
+    private float jumpPressTimer = 0f;
+    public float jumpPressResetTime = 0.5f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rb.gravityScale = gravityScale;
-        
+
         AudioSource[] sources = GetComponents<AudioSource>();
         runAudioSource = sources[0];
         sfxAudioSource = sources[1];
@@ -61,13 +66,28 @@ public class Player : MonoBehaviour
     {
         if (isDead) return;
 
-        if (Input.GetKeyDown(jumpKey) && canJump)
+        if (Input.GetKeyDown(jumpKey))
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            canJump = false;
-            anim.SetBool("IsJumping", true);
-            
-            sfxAudioSource.PlayOneShot(jumpSound);
+            currentJumpPresses++;
+            jumpPressTimer = jumpPressResetTime;
+
+            if (currentJumpPresses >= requiredJumpPresses && canJump)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                canJump = false;
+                anim.SetBool("IsJumping", true);
+                sfxAudioSource.PlayOneShot(jumpSound);
+                currentJumpPresses = 0; 
+            }
+        }
+
+        if (jumpPressTimer > 0)
+        {
+            jumpPressTimer -= Time.deltaTime;
+            if (jumpPressTimer <= 0)
+            {
+                currentJumpPresses = 0;
+            }
         }
     }
 
@@ -91,7 +111,7 @@ public class Player : MonoBehaviour
 
         anim.SetBool("IsRunning", isRunning);
         anim.SetBool("IsJumping", isJumping);
-        
+
         if (isRunning && !isJumping && !runAudioSource.isPlaying)
         {
             runAudioSource.clip = runSound;
@@ -112,15 +132,22 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-    
+
     public void JumpFromButton()
     {
-        if (isDead || !canJump) return;
+        if (isDead) return;
 
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        canJump = false;
-        anim.SetBool("IsJumping", true);
-        sfxAudioSource.PlayOneShot(jumpSound);
+        currentJumpPresses++;
+        jumpPressTimer = jumpPressResetTime;
+
+        if (currentJumpPresses >= requiredJumpPresses && canJump)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            canJump = false;
+            anim.SetBool("IsJumping", true);
+            sfxAudioSource.PlayOneShot(jumpSound);
+            currentJumpPresses = 0;
+        }
     }
 
     public void MoveLeftButtonDown() => moveInput = -1f;
