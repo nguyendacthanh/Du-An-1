@@ -14,15 +14,13 @@ public class LevelMNG : MonoBehaviour
     public void OnLevelComplete()
     {
         int newLevel = PlayerPrefs.GetInt("CurrentLevel", 1) + 1;
-
-        // Cập nhật PlayerPrefs
+        
         PlayerPrefs.SetInt("CurrentLevel", newLevel);
         PlayerPrefs.SetInt("LastCompletedLevel", newLevel);
         PlayerPrefs.Save();
 
         SaveProgress(newLevel);
-
-        // Load màn tiếp theo
+        
         SceneManager.LoadScene("Man" + newLevel);
     }
 

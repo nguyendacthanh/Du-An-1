@@ -21,6 +21,7 @@ public class Menu : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+        PlayerPrefs.DeleteKey("CurrentLevel");
     }
 
     public void LoginPanel()
@@ -29,7 +30,7 @@ public class Menu : MonoBehaviour
     }
     public void ShowLeaderboardButtonClicked()
     {
-        leaderboard.SetActive(true); // Hiển thị bảng xếp hạng khi nhấn nút
+        leaderboard.SetActive(true);
     }
 }
 

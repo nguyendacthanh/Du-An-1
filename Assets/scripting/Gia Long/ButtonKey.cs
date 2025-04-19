@@ -8,25 +8,23 @@ using Vector3 = UnityEngine.Vector3;
 
 public class ButtonKey : MonoBehaviour
 {
-    // demo 
-    private float speed = 0.5f;      // Tốc độ di chuyển
-    private float startY;          // Vị trí Y ban đầu
+    private float speed = 0.5f;     
+    private float startY;          
     public GameObject button;
     private bool isMovingDown = false;
     public GameObject doorWall;
     
-
-//fsfsfd
+    
     private void Start()
     {
-        startY = button.transform.position.y; // Lưu vị trí Y ban đầu
+        startY = button.transform.position.y; 
         
         
     }
 
     private void Update()
     {
-        moving(); // Gọi liên tục trong Update để xử lý di chuyển
+        moving(); 
     }
 
     private void OnTriggerEnter2D(Collider2D other)

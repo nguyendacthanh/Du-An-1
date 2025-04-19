@@ -21,16 +21,15 @@ public class Player : MonoBehaviour
     public AudioClip runSound;
     public AudioClip jumpSound;
 
-    private AudioSource runAudioSource;  // Loop cho chạy
-    private AudioSource sfxAudioSource;  // OneShot cho nhảy, va chạm,...
+    private AudioSource runAudioSource; 
+    private AudioSource sfxAudioSource; 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rb.gravityScale = gravityScale;
-
-        // Lấy 2 AudioSource từ GameObject
+        
         AudioSource[] sources = GetComponents<AudioSource>();
         runAudioSource = sources[0];
         sfxAudioSource = sources[1];
@@ -67,8 +66,7 @@ public class Player : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             canJump = false;
             anim.SetBool("IsJumping", true);
-
-            // Phát âm thanh nhảy từ sfxAudioSource
+            
             sfxAudioSource.PlayOneShot(jumpSound);
         }
     }
@@ -93,8 +91,7 @@ public class Player : MonoBehaviour
 
         anim.SetBool("IsRunning", isRunning);
         anim.SetBool("IsJumping", isJumping);
-
-        // Quản lý âm thanh chạy riêng
+        
         if (isRunning && !isJumping && !runAudioSource.isPlaying)
         {
             runAudioSource.clip = runSound;
@@ -115,8 +112,7 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-
-    // Gọi từ UI Button
+    
     public void JumpFromButton()
     {
         if (isDead || !canJump) return;

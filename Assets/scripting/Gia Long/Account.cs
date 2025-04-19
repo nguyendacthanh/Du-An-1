@@ -2,7 +2,7 @@
 using TMPro;
 using System.IO;
 using System.Text.RegularExpressions;
-using UnityEngine.UI; // Cho Toggle
+using UnityEngine.UI;
 
 public class Account : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class Account : MonoBehaviour
     public TMP_InputField passwordInput;
     public TMP_Text messageText;
     public TMP_Text modeText;
-    public Toggle showPasswordToggle; // Toggle để ẩn/hiện mật khẩu
+    public Toggle showPasswordToggle;
 
     private string filePath;
 
@@ -26,12 +26,10 @@ public class Account : MonoBehaviour
             File.WriteAllText(filePath, "");
 
         modeText.text = "ĐăngNhập";
-
-        // Thiết lập mặc định là ẩn mật khẩu
+        
         passwordInput.contentType = TMP_InputField.ContentType.Password;
         passwordInput.ForceLabelUpdate();
-
-        // Lắng nghe toggle
+        
         showPasswordToggle.onValueChanged.AddListener(delegate { TogglePasswordVisibility(); });
     }
 
@@ -48,8 +46,7 @@ public class Account : MonoBehaviour
         modeText.text = "ĐăngKý";
         string username = usernameInput.text.Trim();
         string password = passwordInput.text.Trim();
-
-        // Kiểm tra thông tin
+        
         if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
         {
             messageText.text = "Vui lòng nhập đầy đủ thông tin.";
@@ -73,8 +70,7 @@ public class Account : MonoBehaviour
             messageText.text = "Mật khẩu phải có ít nhất 5 ký tự.";
             return;
         }
-
-        // Kiểm tra trùng tài khoản
+        
         string[] lines = File.ReadAllLines(filePath);
         foreach (var line in lines)
         {
@@ -121,14 +117,12 @@ public class Account : MonoBehaviour
 
         messageText.text = "Sai tài khoản hoặc mật khẩu.";
     }
-
-    // Helper: kiểm tra có khoảng trắng
+    
     bool ContainsWhitespace(string input)
     {
         return input.Contains(" ");
     }
-
-    // Helper: kiểm tra có dùng ký tự không phải ASCII (dấu, unicode)
+    
     bool IsAsciiOnly(string input)
     {
         return Regex.IsMatch(input, @"^[\x20-\x7E]+$");
@@ -146,7 +140,7 @@ public class Account : MonoBehaviour
             string[] parts = lines[i].Split('\t');
             if (parts.Length >= 3 && parts[0] == username)
             {
-                parts[2] = newLevel.ToString(); // Cập nhật level
+                parts[2] = newLevel.ToString();
                 lines[i] = string.Join("\t", parts);
                 break;
             }
