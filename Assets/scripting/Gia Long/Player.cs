@@ -1,7 +1,6 @@
 using System;
-using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
+
 public class Player : MonoBehaviour
 {
     private float moveSpeed = 50f;
@@ -16,14 +15,25 @@ public class Player : MonoBehaviour
     public KeyCode moveLeftKey = KeyCode.A;
     public KeyCode moveRightKey = KeyCode.D;
     public KeyCode jumpKey = KeyCode.W;
-    
+
     private float moveInput = 0f;
+
+    public AudioClip runSound;
+    public AudioClip jumpSound;
+
+    private AudioSource runAudioSource;  // Loop cho chạy
+    private AudioSource sfxAudioSource;  // OneShot cho nhảy, va chạm,...
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rb.gravityScale = gravityScale;
+
+        // Lấy 2 AudioSource từ GameObject
+        AudioSource[] sources = GetComponents<AudioSource>();
+        runAudioSource = sources[0];
+        sfxAudioSource = sources[1];
     }
 
     void Update()
@@ -37,19 +47,11 @@ public class Player : MonoBehaviour
     {
         if (isDead) return;
 
-        float moveX = moveInput; // moveInput mặc định = 0, chỉ có giá trị nếu có button UI nhấn
+        float moveX = moveInput;
 
-        // Bàn phím vẫn hoạt động bình thường
-        if (Input.GetKey(moveLeftKey))
-        {
-            moveX = -1;
-        }
-        if (Input.GetKey(moveRightKey))
-        {
-            moveX = 1;
-        }
+        if (Input.GetKey(moveLeftKey)) moveX = -1;
+        if (Input.GetKey(moveRightKey)) moveX = 1;
 
-        // Xử lý Flip
         if (moveX < 0 && facingRight) Flip();
         else if (moveX > 0 && !facingRight) Flip();
 
@@ -65,6 +67,9 @@ public class Player : MonoBehaviour
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             canJump = false;
             anim.SetBool("IsJumping", true);
+
+            // Phát âm thanh nhảy từ sfxAudioSource
+            sfxAudioSource.PlayOneShot(jumpSound);
         }
     }
 
@@ -83,7 +88,26 @@ public class Player : MonoBehaviour
 
     void UpdateAnimation()
     {
-        anim.SetBool("IsRunning", Mathf.Abs(rb.linearVelocity.x) > 0.1f);
+        bool isRunning = Mathf.Abs(rb.linearVelocity.x) > 0.1f;
+        bool isJumping = !canJump;
+
+        anim.SetBool("IsRunning", isRunning);
+        anim.SetBool("IsJumping", isJumping);
+
+        // Quản lý âm thanh chạy riêng
+        if (isRunning && !isJumping && !runAudioSource.isPlaying)
+        {
+            runAudioSource.clip = runSound;
+            runAudioSource.loop = true;
+            runAudioSource.Play();
+        }
+        else if (!isRunning || isJumping)
+        {
+            if (runAudioSource.isPlaying && runAudioSource.clip == runSound)
+            {
+                runAudioSource.Stop();
+            }
+        }
     }
 
     void Flip()
@@ -91,7 +115,8 @@ public class Player : MonoBehaviour
         facingRight = !facingRight;
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
     }
-    
+
+    // Gọi từ UI Button
     public void JumpFromButton()
     {
         if (isDead || !canJump) return;
@@ -99,21 +124,12 @@ public class Player : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         canJump = false;
         anim.SetBool("IsJumping", true);
+        sfxAudioSource.PlayOneShot(jumpSound);
     }
 
-    public void MoveLeftButtonDown()
-    {
-        moveInput = -1f;
-    }
-
-    public void MoveRightButtonDown()
-    {
-        moveInput = 1f;
-    }
-
-    public void MoveButtonUp()
-    {
-        moveInput = 0f;
-    }
+    public void MoveLeftButtonDown() => moveInput = -1f;
+    public void MoveRightButtonDown() => moveInput = 1f;
+    public void MoveButtonUp() => moveInput = 0f;
 }
+
 
