@@ -4,7 +4,7 @@ using UnityEngine;
 public class ColorTextExample : MonoBehaviour
 {
     public TMP_Text textToColor;
-    public float changeInterval = 0.3f; // thời gian đổi màu
+    public float changeInterval = 0.3f;
 
     void Start()
     {

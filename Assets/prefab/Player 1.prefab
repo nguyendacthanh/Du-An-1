@@ -134,6 +134,10 @@ MonoBehaviour:
   moveLeftKey: 97
   moveRightKey: 100
   jumpKey: 119
+  runSound: {fileID: 0}
+  jumpSound: {fileID: 0}
+  requiredJumpPresses: 3
+  jumpPressResetTime: 0.5
 --- !u!95 &8900435467665106783
 Animator:
   serializedVersion: 7

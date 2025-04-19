@@ -127369,7 +127369,7 @@ PrefabInstance:
     - target: {fileID: 2390490131458518344, guid: 91cbcb271034e1646923f49ac74bb739, type: 3}
       propertyPath: panelWin
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1533470039}
     - target: {fileID: 4753094466775759717, guid: 91cbcb271034e1646923f49ac74bb739, type: 3}
       propertyPath: m_SortingOrder
       value: 2

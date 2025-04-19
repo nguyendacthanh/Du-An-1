@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class LevelSelector : MonoBehaviour
 {
-    public GameObject[] levelButtons; // Kéo các button level vào đây từ 1 đến 20
+    public GameObject[] levelButtons;
 
     void Start()
     {
@@ -12,15 +12,14 @@ public class LevelSelector : MonoBehaviour
         for (int i = 0; i < levelButtons.Length; i++)
         {
             int levelIndex = i + 1;
-
-            // Nếu level này nhỏ hơn hoặc bằng level đã mở
+            
             if (levelIndex <= currentLevel)
             {
                 levelButtons[i].SetActive(true);
             }
             else
             {
-                levelButtons[i].SetActive(false); // hoặc: levelButtons[i].GetComponent<Button>().interactable = false;
+                levelButtons[i].SetActive(false);
             }
         }
     }

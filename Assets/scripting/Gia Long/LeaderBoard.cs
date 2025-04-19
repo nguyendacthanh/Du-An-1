@@ -7,17 +7,16 @@ using UnityEngine.UI;
 
 public class Leaderboard : MonoBehaviour
 {
-    public GameObject accountListPanel;       // Panel chứa danh sách tài khoản
-    public Transform accountListContent;      // Content của ScrollView
-    public GameObject accountItemPrefab;      // Prefab cho mỗi tài khoản
+    public GameObject accountListPanel;       
+    public Transform accountListContent;      
+    public GameObject accountItemPrefab;      
 
     private string filePath;
 
     void Start()
     {
         filePath = Application.dataPath + "/Account/account.txt";
-
-        // Kiểm tra và tạo thư mục nếu chưa có
+        
         string folder = Path.GetDirectoryName(filePath);
         if (!Directory.Exists(folder))
             Directory.CreateDirectory(folder);
@@ -27,8 +26,7 @@ public class Leaderboard : MonoBehaviour
 
         ShowLeaderboard();
     }
-
-    // Hiển thị bảng xếp hạng
+    
     public void ShowLeaderboard()
     {
         string[] lines = File.ReadAllLines(filePath);
@@ -47,11 +45,9 @@ public class Leaderboard : MonoBehaviour
                 }
             }
         }
-
-        // Sắp xếp theo level giảm dần
+        
         accountDataList = accountDataList.OrderByDescending(a => a.level).ToList();
-
-        // Xóa mục cũ
+        
         foreach (Transform child in accountListContent)
         {
             Destroy(child.gameObject);
@@ -63,7 +59,6 @@ public class Leaderboard : MonoBehaviour
 
         foreach (var account in accountDataList)
         {
-            // Nếu level khác thì tăng rank hiển thị
             if (lastLevel != null && account.level != lastLevel)
             {
                 displayRank = rank;
@@ -83,8 +78,7 @@ public class Leaderboard : MonoBehaviour
 
         accountListPanel.SetActive(true);
     }
-
-    // Thêm tài khoản mới
+    
     public void AddNewAccount(string username, int level)
     {
         string[] lines = File.ReadAllLines(filePath);
@@ -105,8 +99,7 @@ public class Leaderboard : MonoBehaviour
         List<string> newLines = new List<string>();
         foreach (var account in accountDataList)
         {
-            // Nếu muốn giữ lại password, bạn có thể ghi thêm chỗ này
-            newLines.Add(account.username + "\t12345\t" + account.level); // dummy password
+            newLines.Add(account.username + "\t12345\t" + account.level);
         }
 
         File.WriteAllLines(filePath, newLines);
@@ -115,7 +108,6 @@ public class Leaderboard : MonoBehaviour
     }
 }
 
-// Class lưu thông tin tài khoản
 public class AccountData
 {
     public string username;
