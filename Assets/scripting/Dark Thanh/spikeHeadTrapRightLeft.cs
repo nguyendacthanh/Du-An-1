@@ -10,6 +10,8 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
     private bool isWaiting = false;
     public float timeDelay = 1f;
     public GameObject player,panelLost;
+    public AudioSource audioSource;
+    public AudioClip loseSound;
 
     private void Start()
     {
@@ -73,9 +75,16 @@ public class spikeHeadTrapRightLeft : MonoBehaviour
     }
     private IEnumerator ShowLostPanel()
     { 
+        player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
+        player.GetComponent<Player>().enabled = false;
         anim.SetTrigger("IsDie");
+        
+        audioSource.PlayOneShot(loseSound);
+        
         yield return new WaitForSeconds(1.5f); 
+        Time.timeScale = 0f;
         Destroy(player);
+        Time.timeScale = 0f;
         panelLost.SetActive(true); 
     }
 }

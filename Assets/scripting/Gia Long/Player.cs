@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        Time.timeScale = 1f;
         MovePlayer();
         Jump();
         UpdateAnimation();
