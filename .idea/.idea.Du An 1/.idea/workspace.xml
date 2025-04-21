@@ -7,23 +7,11 @@
     <list default="true" id="031bfc69-44f4-4768-b8ec-5b7b2b11037c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Du An 1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man11.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man12.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/01-Artboard.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/01-Artboard.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/02-KingHuman.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/02-KingHuman.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/03-Pig.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/03-Pig.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/04-PigBox.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/04-PigBox.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/05-PigBoom.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/05-PigBoom.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/06-PigHide.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/06-PigHide.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/07-KingPig.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/07-KingPig.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/08-Bomb.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/08-Bomb.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/09-Box.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/09-Box.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/10-Cannon and Pig.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/10-Cannon and Pig.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/11-Door.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/11-Door.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/12-Lives and Coins.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/12-Lives and Coins.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/13-Dialogue.aseprite.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/image/Pigs/Aseprite/13-Dialogue.aseprite.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/scripting/Dark Thanh/spikeHeadTrapUpDown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/scripting/Dark Thanh/spikeHeadTrapUpDown.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/1-15/Man6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/1-15/Man6.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +134,7 @@
       <workItem from="1744972444895" duration="18000" />
       <workItem from="1744973229550" duration="1795000" />
       <workItem from="1745068476884" duration="1631000" />
+      <workItem from="1745233884765" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="test something">
       <option name="closed" value="true" />

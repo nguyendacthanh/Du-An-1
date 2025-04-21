@@ -30555,10 +30555,10 @@ PrefabInstance:
         c\u0169ng kh\xF4ng ph\u1EA3i k\u1EBB duy nh\u1EA5t. L\xE2u l\xE2u c\u0169ng
         c\xF3 v\xE0i ng\u01B0\u1EDDi gi\u1ED1ng ng\u01B0\u01A1i th\xF4i. Nh\u01B0ng
         ch\xFAng gi\u1EDD c\u0169ng \u0111\xE3 g\xF3p m\u1ED9t ph\u1EA7n gi\xFAp
-        ta ph\xE1t tri\u1EC3n th\xEAm nhi\u1EC1u ph\xF2ng h\u01A1n n\u1EEFa r\u1ED3i.\n\nT\xE1n
-        ng\u1EABu v\u1EADy \u0111\u1EE7 r\u1ED3i, gi\u1EDD tao s\u1EBD n\xE2ng t\u1EA7m
-        cu\u1ED9c ch\u01A1i l\xEAn m\u1ED9t ch\xFAt nh\xE9. Sau c\xF9ng th\xEC \u0103n
-        v\u1ED9i qu\xE1 c\u0169ng m\u1EA5t ngon.\n"
+        ta ph\xE1t tri\u1EC3n h\u01A1n n\u1EEFa r\u1ED3i.\n\nT\xE1n ng\u1EABu v\u1EADy
+        \u0111\u1EE7 r\u1ED3i, gi\u1EDD tao s\u1EBD n\xE2ng t\u1EA7m cu\u1ED9c ch\u01A1i
+        l\xEAn m\u1ED9t ch\xFAt nh\xE9. Sau c\xF9ng th\xEC \u0103n v\u1ED9i qu\xE1
+        c\u0169ng m\u1EA5t ngon.\n"
       objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalPosition.x

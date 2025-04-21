@@ -823,10 +823,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4265774920578179371, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_text
-      value: "M\xE0y c\u0169ng bi\u1EBFt s\u1EED d\u1EE5ng \u0111\u1EA7u \xF3c \u0111\xF3
-        nh\u1EC9 v\u1EADy ch\u1EAFc tr\xED nh\u1EDB c\u1EE7a m\xE0y c\u0169ng kh\xF4ng
-        k\xE9m \u0111\xE2u ha ? 3:))\nC\xF3 v\u1EBB t l\u1EA1i c\xF3 1 b\u1EEFa \u0103n
-        c\xF3 ch\xFAt v\u1ECB sau ng\u1EA7n \u0111\xF3 th\u1EDDi gian r\u1ED3i ha."
+      value: "ng\u01B0\u01A1i c\u0169ng l\xE0 1 k\u1EBB bi\u1EBFt s\u1EED d\u1EE5ng
+        \u0111\u1EA7u \xF3c nh\u1EC9. Nh\u01B0ng \u0111\u1EEBng t\u1EF1 m\xE3n v\u1ED9i
+        gi\u1EDD m\u1EDBi ch\u1EC9 l\xE0 b\u1EAFt \u0111\u1EA7u th\xF4i. \nC\xF2n
+        gi\u1EDD \u0111\u1EC3 ta xem tr\xED nh\u1EDB c\u1EE7a ng\u01B0\u01A1i th\u1EBF
+        n\xE0o"
       objectReference: {fileID: 0}
     - target: {fileID: 9051666974750787205, guid: bdbaf83b31a201a4186e05bf9758d426, type: 3}
       propertyPath: m_LocalScale.x
@@ -127977,7 +127978,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8940741821030508905, guid: 727fe98fda5f19f44a6dc77b7229ea29, type: 3}
       propertyPath: m_text
-      value: They are hidden
+      value: "Ch\xFAng kh\xF4ng bi\u1EBFn m\u1EA5t. "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
