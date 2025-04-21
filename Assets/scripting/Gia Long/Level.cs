@@ -5,6 +5,7 @@ public class Level : MonoBehaviour
 {
     public void SelectLevel(int levelIndex)
     {
+        ClickButton.instance.PlayClickSound(); 
         string sceneName = "Man" + levelIndex;
         if (Application.CanStreamedLevelBeLoaded(sceneName))
         {
@@ -18,6 +19,7 @@ public class Level : MonoBehaviour
 
     public void Menu()
     {
+        ClickButton.instance.PlayClickSound(); 
         SceneManager.LoadScene("Menu");
     }
 }
